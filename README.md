@@ -14,8 +14,8 @@ This project aims to develop a Hand Gesture Recognition Model using Convolutiona
 * Model Training: The CNN is trained on the preprocessed gesture images. Training involves optimizing the model parameters to minimize classification errors. The model learns patterns in the images that correspond to different hand gestures.
 
 * Real-Time Gesture Recognition: Once trained, the model is used for real-time gesture recognition. OpenCV is used to capture live video frames from a webcam, and the CNN model classifies the hand gesture in each frame.
-* #
-* ## Benefits of Using CNNs for Gesture Recognition:
+#
+## Benefits of Using CNNs for Gesture Recognition:
 * Automatic Feature Extraction: Unlike traditional methods that require manual feature engineering, CNNs automatically learn to extract relevant features from raw images.
 * Scalability: CNNs can be easily scaled to recognize additional gestures by retraining the model with more classes.
 * Accuracy: CNNs generally provide high accuracy for image-based tasks due to their deep learning architecture.
